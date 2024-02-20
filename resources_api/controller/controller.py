@@ -13,3 +13,8 @@ def memory_stat():
     memory_data["available_ram"] = available_ram
     memory_data["used_ram"] = used_ram
     memory_data["percentage_used_ram"] = percentage_used_ram
+
+    return memory_data
+
+
+print(memory_stat())
